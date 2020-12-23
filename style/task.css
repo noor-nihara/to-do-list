@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+
+.my-navbar {
+    background: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    align-items: center;
+    transition: 1s;
+}
+
+.heading {
+    font-family: 'Nerko One', cursive;
+    color: #E0E0E0;
+    font-size: 35px;
+}
+
+.my-navbar:hover {
+    background-color: #424242;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Nerko One', cursive;
+    color: #E0E0E0;
+    font-size: large;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#logout{
+    border: 1px solid red;
+    color: #E0E0E0;
+    transition: 500ms;
+}
+
+#logout:hover{
+    background-color: red;
+}
+
+a:hover {
+    color: black;
+    background-color: #E0E0E0;
+}
+
+.nav-elements {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: start;
+}
+
+table {
+    font-size: 22px;
+    font-family: 'Nerko One', cursive;
+}
+
+table td {
+    border: 1px solid white;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+}
+
+table th {
+    border-radius: 6px;
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px){
+    table{
+        font-size: 16px;
+        margin: 0px 20px;
+    }
+}
